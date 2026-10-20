@@ -1,5 +1,3 @@
-
-```lua
 local TweenService = game:GetService("TweenService")
 local TextService  = game:GetService("TextService")
 
