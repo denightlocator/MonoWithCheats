@@ -1,3 +1,5 @@
+
+```lua
 local TweenService = game:GetService("TweenService")
 local TextService  = game:GetService("TextService")
 
@@ -1191,7 +1193,4 @@ Lib.collapse = setCollapsed
 Lib.show = function() setShown(true) end
 Lib.hide = function() setShown(false) end
 
-    return Lib
-end)()
-
-getgenv().WindUI = WindUI
+getgenv().WindUI = Lib
