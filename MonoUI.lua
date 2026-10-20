@@ -1191,7 +1191,7 @@ Lib.collapse = setCollapsed
 Lib.show = function() setShown(true) end
 Lib.hide = function() setShown(false) end
 
-return Lib
+    return Lib
 end)()
 
 getgenv().WindUI = WindUI
